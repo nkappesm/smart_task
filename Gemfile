@@ -2,6 +2,7 @@
 
 source 'https://rubygems.org'
 
+gem 'rspec', '~> 3.11'
 gem 'rubocop', '~> 1.25', require: false
 
 group :test do
