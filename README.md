@@ -1,5 +1,9 @@
 # smart_task
+
 Ruby script that reads a log file containing routes and their visitors ip and orders them.
+Meant for the hiring process of Smart Pension.
+
+# How to use
 
 To run the script you must pass the path to the log as an argument:
 
@@ -7,7 +11,12 @@ To run the script you must pass the path to the log as an argument:
 ./ruby_app/services/parse_smartly webserver.log
 ~~~
 
-# ToDo
+This should return ordered lists with the pages with most views and most unique views.
+
+# Possible improvements
+
+Validate log data: invalid ips, invalid routes.
+Optimize the reading process for big files, possibly by splitting and processing chunks.
 
 # MIT License
 
